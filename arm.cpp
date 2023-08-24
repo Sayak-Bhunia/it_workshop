@@ -18,4 +18,4 @@ int main()
     cout << s1.name <<endl;
     cout << s2.id <<endl;
     cout << s2.name <<endl;
-};
+}
