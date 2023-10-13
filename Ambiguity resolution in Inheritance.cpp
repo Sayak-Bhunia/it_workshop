@@ -31,5 +31,5 @@ class C:public A,public A
 int main()
 {
     C c;
-    c.display();
+    c.display();  //error debe dew to two display()
 }
