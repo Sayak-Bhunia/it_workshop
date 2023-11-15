@@ -11,9 +11,9 @@ public:
         real = r;
         img = i;
     }
-    Complex operator + (Complex const & obj) {
-        Complex res;
-        res.real = real + obj.real;
+    Complex operator + (Complex const &obj) { /* &obj is the address of the objects that contain the complex and real numbers */
+        Complex res; /* obj of the complex class for using outside main */
+        res.real = real + obj.real; /* here "this->" just acts like an indicator old conventional method */
         res.img = img + obj.img;
         return res;
     }
